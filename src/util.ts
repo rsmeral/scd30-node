@@ -15,7 +15,7 @@ export const integerToUint16 = (value: number): Buffer => {
 export const booleanToUint16 = (value: boolean): Buffer => integerToUint16(value ? 1 : 0);
 
 export const write = async (bus: PromisifiedBus, buf: Buffer): Promise<void> => {
-  bus.i2cWrite(SCD30_ADDRESS, buf.length, buf);
+  await bus.i2cWrite(SCD30_ADDRESS, buf.length, buf);
 };
 
 export const read = async (bus: PromisifiedBus, length: number): Promise<Buffer> => {
