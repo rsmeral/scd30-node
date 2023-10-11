@@ -1298,10 +1298,10 @@ source-map@^0.6.1, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-squirrelly@^7.9.1:
-  version "7.9.1"
-  resolved "https://registry.yarnpkg.com/squirrelly/-/squirrelly-7.9.1.tgz#9e83f8d6297345914413455963bbfad98d16208c"
-  integrity sha512-n9uxl2Aa8KvslWExwggN4js064Egr6fzOI3G0KXRV6iQown9dC/5ug3mR3U0PJuWzabj4THUqn47GAWNLLMzcw==
+squirrelly@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/squirrelly/-/squirrelly-9.0.0.tgz#465bced289aa2772ba0b650e0fb99c5a180b52c6"
+  integrity sha512-MutQSfwrpIxvdUOFJ8XOfRSioLy+9O10bmBVWLik4uzJkD5TbeNSTOCKqLjzZJVcgdJNyLc8JRFUN15qFlZx9Q==
 
 strip-ansi@^6.0.1:
   version "6.0.1"
