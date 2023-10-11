@@ -17,20 +17,16 @@
   "devDependencies": {
     "@types/i2c-bus": "^5.1.0",
     "@types/node": "^13.7.0",
-    "@types/squirrelly": "^7.1.0",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "prettier": "^3.0.3",
-    "squirrelly": "^7.9.1",
     "ts-node": "^10.9.1",
-    "typedoc": "^0.16.9",
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "generate-docs": "ts-node scripts/generate-api-docs",
     "build": "tsc",
     "prepack": "tsc"
   },
